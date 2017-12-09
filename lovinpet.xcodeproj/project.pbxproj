@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123352EB1F8B085C005B3B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123352EA1F8B085C005B3B45 /* Main.storyboard */; };
+		123352F61F8B1180005B3B45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123352F51F8B1180005B3B45 /* LoginViewController.swift */; };
+		123352F81F8B119A005B3B45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123352F71F8B119A005B3B45 /* RegisterViewController.swift */; };
+		123352FC1F8B1814005B3B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 123352FB1F8B17B4005B3B45 /* GoogleService-Info.plist */; };
+		125AF9411F8B0672006CAD9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125AF9401F8B0672006CAD9D /* AppDelegate.swift */; };
+		125AF9431F8B0672006CAD9D /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125AF9421F8B0672006CAD9D /* EditProfileViewController.swift */; };
+		125AF9491F8B0672006CAD9D /* lovinpet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125AF9471F8B0672006CAD9D /* lovinpet.xcdatamodeld */; };
+		125AF94B1F8B0672006CAD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125AF94A1F8B0672006CAD9D /* Assets.xcassets */; };
+		125AF94E1F8B0672006CAD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125AF94C1F8B0672006CAD9D /* LaunchScreen.storyboard */; };
+		B07119D0188B1CE22CF2C45B /* Pods_lovinpet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6049A5AB527741E6A994305F /* Pods_lovinpet.framework */; };
+		D92DC0691FBB33E8000F86E8 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92DC0681FBB33E8000F86E8 /* CommentTableViewController.swift */; };
+		D92DC06B1FBB3400000F86E8 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92DC06A1FBB3400000F86E8 /* CommentTableViewCell.swift */; };
+		D92DC06D1FBB3B72000F86E8 /* WriteCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92DC06C1FBB3B72000F86E8 /* WriteCommentViewController.swift */; };
+		D938E9691FBB26C600A8AFE7 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E9681FBB26C600A8AFE7 /* MyProfileViewController.swift */; };
+		D938E96D1FBB284300A8AFE7 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E96C1FBB284300A8AFE7 /* FeedTableViewController.swift */; };
+		D938E9701FBB286400A8AFE7 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E96F1FBB286400A8AFE7 /* FeedTableViewCell.swift */; };
+		D938E9721FBB2E1200A8AFE7 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E9711FBB2E1200A8AFE7 /* Global.swift */; };
+		D938E9741FBB2EC900A8AFE7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D938E9731FBB2EC900A8AFE7 /* PostViewController.swift */; };
+		D95E46C51FC070E80054B55C /* MyPostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E46C41FC070E80054B55C /* MyPostsTableViewController.swift */; };
+		D95E46C71FC072FE0054B55C /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E46C61FC072FE0054B55C /* PersonalViewController.swift */; };
+		D95E46C91FC076230054B55C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E46C81FC076230054B55C /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123352EA1F8B085C005B3B45 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		123352F51F8B1180005B3B45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		123352F71F8B119A005B3B45 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		123352FB1F8B17B4005B3B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		125AF93D1F8B0672006CAD9D /* lovinpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lovinpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		125AF9401F8B0672006CAD9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		125AF9421F8B0672006CAD9D /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		125AF9481F8B0672006CAD9D /* lovinpet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lovinpet.xcdatamodel; sourceTree = "<group>"; };
+		125AF94A1F8B0672006CAD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		125AF94D1F8B0672006CAD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		125AF94F1F8B0672006CAD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6049A5AB527741E6A994305F /* Pods_lovinpet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lovinpet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78532F5D587ED1E30B59B8DD /* Pods-lovinpet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lovinpet.release.xcconfig"; path = "Pods/Target Support Files/Pods-lovinpet/Pods-lovinpet.release.xcconfig"; sourceTree = "<group>"; };
+		C8688D67790C0817A11DE03D /* Pods-lovinpet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lovinpet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lovinpet/Pods-lovinpet.debug.xcconfig"; sourceTree = "<group>"; };
+		D92DC0681FBB33E8000F86E8 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		D92DC06A1FBB3400000F86E8 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		D92DC06C1FBB3B72000F86E8 /* WriteCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteCommentViewController.swift; sourceTree = "<group>"; };
+		D938E9681FBB26C600A8AFE7 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		D938E96C1FBB284300A8AFE7 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		D938E96F1FBB286400A8AFE7 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		D938E9711FBB2E1200A8AFE7 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		D938E9731FBB2EC900A8AFE7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		D95E46C41FC070E80054B55C /* MyPostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostsTableViewController.swift; sourceTree = "<group>"; };
+		D95E46C61FC072FE0054B55C /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		D95E46C81FC076230054B55C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125AF93A1F8B0672006CAD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07119D0188B1CE22CF2C45B /* Pods_lovinpet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123352EC1F8B0E86005B3B45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				125AF9421F8B0672006CAD9D /* EditProfileViewController.swift */,
+				123352F51F8B1180005B3B45 /* LoginViewController.swift */,
+				123352F71F8B119A005B3B45 /* RegisterViewController.swift */,
+				D938E9681FBB26C600A8AFE7 /* MyProfileViewController.swift */,
+				D938E96C1FBB284300A8AFE7 /* FeedTableViewController.swift */,
+				D938E9731FBB2EC900A8AFE7 /* PostViewController.swift */,
+				D92DC0681FBB33E8000F86E8 /* CommentTableViewController.swift */,
+				D92DC06C1FBB3B72000F86E8 /* WriteCommentViewController.swift */,
+				D95E46C41FC070E80054B55C /* MyPostsTableViewController.swift */,
+				D95E46C61FC072FE0054B55C /* PersonalViewController.swift */,
+				D95E46C81FC076230054B55C /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		125AF9341F8B0672006CAD9D = {
+			isa = PBXGroup;
+			children = (
+				125AF93F1F8B0672006CAD9D /* lovinpet */,
+				125AF93E1F8B0672006CAD9D /* Products */,
+				636BFFB63F7C48AC674BC715 /* Pods */,
+				4BFB5ECF33E169842343C7ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		125AF93E1F8B0672006CAD9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				125AF93D1F8B0672006CAD9D /* lovinpet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		125AF93F1F8B0672006CAD9D /* lovinpet */ = {
+			isa = PBXGroup;
+			children = (
+				D938E96E1FBB284700A8AFE7 /* Views */,
+				123352EC1F8B0E86005B3B45 /* Controllers */,
+				125AF9401F8B0672006CAD9D /* AppDelegate.swift */,
+				123352FB1F8B17B4005B3B45 /* GoogleService-Info.plist */,
+				125AF94A1F8B0672006CAD9D /* Assets.xcassets */,
+				125AF94C1F8B0672006CAD9D /* LaunchScreen.storyboard */,
+				125AF94F1F8B0672006CAD9D /* Info.plist */,
+				125AF9471F8B0672006CAD9D /* lovinpet.xcdatamodeld */,
+				123352EA1F8B085C005B3B45 /* Main.storyboard */,
+				D938E9711FBB2E1200A8AFE7 /* Global.swift */,
+			);
+			path = lovinpet;
+			sourceTree = "<group>";
+		};
+		4BFB5ECF33E169842343C7ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6049A5AB527741E6A994305F /* Pods_lovinpet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		636BFFB63F7C48AC674BC715 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8688D67790C0817A11DE03D /* Pods-lovinpet.debug.xcconfig */,
+				78532F5D587ED1E30B59B8DD /* Pods-lovinpet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D938E96E1FBB284700A8AFE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D938E96F1FBB286400A8AFE7 /* FeedTableViewCell.swift */,
+				D92DC06A1FBB3400000F86E8 /* CommentTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125AF93C1F8B0672006CAD9D /* lovinpet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125AF9521F8B0672006CAD9D /* Build configuration list for PBXNativeTarget "lovinpet" */;
+			buildPhases = (
+				26BF2774C2876CB20B0E3EE4 /* [CP] Check Pods Manifest.lock */,
+				125AF9391F8B0672006CAD9D /* Sources */,
+				125AF93A1F8B0672006CAD9D /* Frameworks */,
+				125AF93B1F8B0672006CAD9D /* Resources */,
+				27FE87E0EC7FF36AC52474BE /* [CP] Embed Pods Frameworks */,
+				42850363E329FFBCB0BF35F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lovinpet;
+			productName = lovinpet;
+			productReference = 125AF93D1F8B0672006CAD9D /* lovinpet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125AF9351F8B0672006CAD9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hong Gao";
+				TargetAttributes = {
+					125AF93C1F8B0672006CAD9D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 125AF9381F8B0672006CAD9D /* Build configuration list for PBXProject "lovinpet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125AF9341F8B0672006CAD9D;
+			productRefGroup = 125AF93E1F8B0672006CAD9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125AF93C1F8B0672006CAD9D /* lovinpet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125AF93B1F8B0672006CAD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123352EB1F8B085C005B3B45 /* Main.storyboard in Resources */,
+				123352FC1F8B1814005B3B45 /* GoogleService-Info.plist in Resources */,
+				125AF94E1F8B0672006CAD9D /* LaunchScreen.storyboard in Resources */,
+				125AF94B1F8B0672006CAD9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26BF2774C2876CB20B0E3EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lovinpet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27FE87E0EC7FF36AC52474BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-lovinpet/Pods-lovinpet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lovinpet/Pods-lovinpet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42850363E329FFBCB0BF35F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lovinpet/Pods-lovinpet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125AF9391F8B0672006CAD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123352F61F8B1180005B3B45 /* LoginViewController.swift in Sources */,
+				D95E46C71FC072FE0054B55C /* PersonalViewController.swift in Sources */,
+				D938E9701FBB286400A8AFE7 /* FeedTableViewCell.swift in Sources */,
+				D95E46C51FC070E80054B55C /* MyPostsTableViewController.swift in Sources */,
+				123352F81F8B119A005B3B45 /* RegisterViewController.swift in Sources */,
+				D938E9691FBB26C600A8AFE7 /* MyProfileViewController.swift in Sources */,
+				D938E9741FBB2EC900A8AFE7 /* PostViewController.swift in Sources */,
+				D92DC0691FBB33E8000F86E8 /* CommentTableViewController.swift in Sources */,
+				D938E96D1FBB284300A8AFE7 /* FeedTableViewController.swift in Sources */,
+				D92DC06B1FBB3400000F86E8 /* CommentTableViewCell.swift in Sources */,
+				125AF9431F8B0672006CAD9D /* EditProfileViewController.swift in Sources */,
+				125AF9411F8B0672006CAD9D /* AppDelegate.swift in Sources */,
+				125AF9491F8B0672006CAD9D /* lovinpet.xcdatamodeld in Sources */,
+				D92DC06D1FBB3B72000F86E8 /* WriteCommentViewController.swift in Sources */,
+				D938E9721FBB2E1200A8AFE7 /* Global.swift in Sources */,
+				D95E46C91FC076230054B55C /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		125AF94C1F8B0672006CAD9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125AF94D1F8B0672006CAD9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125AF9501F8B0672006CAD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		125AF9511F8B0672006CAD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125AF9531F8B0672006CAD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8688D67790C0817A11DE03D /* Pods-lovinpet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FK69UW4TT;
+				INFOPLIST_FILE = lovinpet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovinpet.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		125AF9541F8B0672006CAD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78532F5D587ED1E30B59B8DD /* Pods-lovinpet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FK69UW4TT;
+				INFOPLIST_FILE = lovinpet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lovinpet.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125AF9381F8B0672006CAD9D /* Build configuration list for PBXProject "lovinpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125AF9501F8B0672006CAD9D /* Debug */,
+				125AF9511F8B0672006CAD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125AF9521F8B0672006CAD9D /* Build configuration list for PBXNativeTarget "lovinpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125AF9531F8B0672006CAD9D /* Debug */,
+				125AF9541F8B0672006CAD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		125AF9471F8B0672006CAD9D /* lovinpet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				125AF9481F8B0672006CAD9D /* lovinpet.xcdatamodel */,
+			);
+			currentVersion = 125AF9481F8B0672006CAD9D /* lovinpet.xcdatamodel */;
+			path = lovinpet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 125AF9351F8B0672006CAD9D /* Project object */;
+}
